@@ -1,0 +1,93 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Library System (Windows)",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "main.c",
+                "-o",
+                "library_system.exe",
+                "-Wall",
+                "-std=c99",
+                "-O2",
+                "-lraylib",
+                "-lopengl32",
+                "-lgdi32",
+                "-lwinmm"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "detail": "Compile main.c with raylib on Windows (MinGW)"
+        },
+        {
+            "label": "Build Library System (Linux)",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "main.c",
+                "-o",
+                "library_system",
+                "-Wall",
+                "-std=c99",
+                "-O2",
+                "-lraylib",
+                "-lGL",
+                "-lm",
+                "-lpthread",
+                "-ldl",
+                "-lrt",
+                "-lX11"
+            ],
+            "group": "build",
+            "problemMatcher": ["$gcc"],
+            "detail": "Compile main.c with raylib on Linux"
+        },
+        {
+            "label": "Build Library System (macOS)",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "main.c",
+                "-o",
+                "library_system",
+                "-Wall",
+                "-std=c99",
+                "-O2",
+                "-lraylib",
+                "-framework", "OpenGL",
+                "-framework", "Cocoa",
+                "-framework", "IOKit",
+                "-framework", "CoreVideo"
+            ],
+            "group": "build",
+            "problemMatcher": ["$gcc"],
+            "detail": "Compile main.c with raylib on macOS"
+        },
+        {
+            "label": "Run Library System",
+            "type": "shell",
+            "command": "${workspaceFolder}/library_system",
+            "windows": {
+                "command": "${workspaceFolder}\\library_system.exe"
+            },
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "dependsOn": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        }
+    ]
+}

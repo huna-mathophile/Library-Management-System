@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Library System (Windows)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/library_system.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "Build Library System (Windows)"
+        },
+        {
+            "name": "Run Library System (Linux/macOS)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/library_system",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb"
+        }
+    ]
+}

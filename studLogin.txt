@@ -1,0 +1,23 @@
+username|password|name|semester|faculty|booksborrowed|booksreturnedontime|booksreturnedlate|currentlyborrowedbooks|fine
+25k36001|12345678|ali khan|3|computer science|5|4|1||0
+25k36005|zqp381lm|omar javed|1|computer science|3|2|0|901234:20625|0
+22k36008|hk19vbe2|laiba noor|8|it|7|3|0|345671:20626,712309:20623,887654:20620,998812:20618|0
+25k36025|r8xp3mz5|shayan ahmed|2|it|0|0|0||0
+24k36002|24681012|sara ahmed|2|software engineering|4|2|1|129044:20624|500
+24k36006|t8lqp3wk|ayesha tariq|4|cyber security|5|2|1|651290:20623,774521:20621|300
+25k36013|f3pz7aq6|rayan siddiqui|4|data science|1|0|1||800
+23k36007|md75rx0v|shehryar malik|6|data science|8|4|1|990123:20622,441278:20619,873654:20617|0
+22k36020|w2tp9fc7|hoorain altaf|5|se|7|3|1|550912:20626,662349:20624,712890:20620|0
+23k36011|s1vr8kp3|muneeb shah|1|cyber security|5|2|1|991234:20622,872301:20619|0
+23k36003|pq51xl9r|hamza iqbal|5|artificial intelligence|6|3|0|662341:20610,559812:20624,981234:20621|0
+22k36004|un83ba11|maira farooq|7|information technology|10|5|1|442198:20603,713540:20626,661234:20622,550091:20617|0
+24k36010|wx6aqp19|hassan raza|3|computer science|4|3|0|873210:20624|0
+22k36012|bqm57ta9|fatima sohail|5|ai|8|4|0|443210:20627,550987:20623,663421:20620,778901:20616|0
+25k36009|pq82lms7|zara imran|2|software engineering|1|0|0|553421:20625|0
+25k36017|as9wn5xu|bilal arshad|2|computer science|1|0|0|331290:20623|0
+24k36018|ck12tzp8|anooshay mir|1|cyber security|2|1|0|554290:20621|0
+23k36019|vm6qr1bf|sameer nawaz|3|it|3|2|0|663201:20619|0
+22k36016|nl8vt2rq|mishal khan|7|ai|6|2|0|774531:20625,660931:20622,882210:20619,339012:20616|0
+22k36024|jq17vsx8|nimra adeel|8|cyber security|7|3|0|781234:20627,554120:20624,667321:20620,993210:20617|0
+24k36014|qt71lpk9|eeman khalid|6|it|3|2|0|901122:20623|0
+23k36015|yw5q8ma3|hanzala qureshi|4|software engineering|4|2|0|330912:20624,882341:20621|0

@@ -1,0 +1,48 @@
+isbn|title|author|subject|faculty|semester|quantity|borrowed|available|Id Of current stud
+129044|software engineering basics|sara khan|software engineering|software engineering|2|3|1|2|24k36002:20624
+783512|cyber security fundamentals|ayesha tariq|cyber security|cyber security|4|4|0|4|
+662341|artificial intelligence 101|hamza iqbal|artificial intelligence|ai|5|6|1|5|23k36003:20610
+559812|machine learning guide|hamza iqbal|ai|ai|5|3|1|2|23k36003:20624
+981234|deep learning concepts|hamza iqbal|ai|ai|5|2|1|1|23k36003:20621
+442198|networking essentials|maira farooq|it|information technology|7|7|1|6|22k36004:20603
+713540|database systems|maira farooq|it|information technology|7|4|1|3|22k36004:20626
+661234|operating systems|maira farooq|it|information technology|7|3|1|2|22k36004:20622
+550091|computer architecture|maira farooq|it|information technology|7|2|1|1|22k36004:20617
+901234|programming in c|omar javed|computer science|computer science|1|2|1|1|25k36005:20625
+651290|ethical hacking|ayesha tariq|cyber security|cyber security|4|3|1|2|24k36006:20623
+774521|network security|ayesha tariq|cyber security|cyber security|4|3|1|2|24k36006:20621
+990123|data science basics|shehryar malik|data science|data science|6|5|1|4|23k36007:20622
+441278|data analysis|shehryar malik|data science|data science|6|3|1|2|23k36007:20619
+873654|statistics for ds|shehryar malik|data science|data science|6|2|1|1|23k36007:20617
+345671|web development|laiba noor|it|it|8|4|1|3|22k36008:20626
+712309|cloud computing|laiba noor|it|it|8|3|1|2|22k36008:20623
+887654|it project management|laiba noor|it|it|8|3|1|2|22k36008:20620
+998812|network design|laiba noor|it|it|8|2|1|1|22k36008:20618
+553421|programming fundamentals|zara imran|software engineering|software engineering|2|2|1|1|25k36009:20625
+873210|advanced programming|hassan raza|computer science|computer science|3|3|1|2|24k36010:20624
+991234|cyber security lab|muneeb shah|cyber security|cyber security|1|2|1|1|23k36011:20622
+872301|database lab|muneeb shah|it|it|1|2|1|1|23k36011:20619
+554876|ml lab|muneeb shah|ai|ai|1|1|0|1|
+443210|algorithms|fatima sohail|computer science|ai|5|5|1|4|22k36012:20627
+550987|data structures|fatima sohail|computer science|ai|5|4|1|3|22k36012:20623
+663421|ai lab|fatima sohail|ai|ai|5|3|1|2|22k36012:20620
+778901|deep learning lab|fatima sohail|ai|ai|5|2|1|1|22k36012:20616
+336781|python programming|rayan siddiqui|data science|data science|4|2|0|2|
+901122|network security lab|eeman khalid|cyber security|it|6|2|1|1|24k36014:20623
+330912|software testing|hanzala qureshi|software engineering|software engineering|4|3|1|2|23k36015:20624
+882341|advanced se|hanzala qureshi|software engineering|software engineering|4|2|1|1|23k36015:20621
+774531|ai research|mishal khan|ai|ai|7|3|1|2|22k36016:20625
+660931|data mining|mishal khan|data science|ai|7|3|1|2|22k36016:20622
+882210|cyber lab|mishal khan|cyber security|ai|7|2|1|1|22k36016:20619
+339012|it essentials|mishal khan|it|ai|7|1|1|0|22k36016:20616
+331290|c programming lab|bilal arshad|computer science|computer science|2|1|1|0|25k36017:20623
+554290|networking basics|anooshay mir|it|cyber security|1|2|1|1|24k36018:20621
+663201|ds fundamentals|sameer nawaz|data science|it|3|2|1|1|23k36019:20619
+550912|ai foundations|hoorain altaf|ai|se|5|3|1|2|22k36020:20626
+662349|statistics|hoorain altaf|data science|se|5|2|1|1|22k36020:20624
+712890|python lab|hoorain altaf|computer science|se|5|2|1|1|22k36020:20620
+781234|cyber security 101|nimra adeel|cyber security|cyber security|8|4|1|3|22k36024:20627
+554120|it lab|nimra adeel|it|cyber security|8|3|1|2|22k36024:20624
+667321|database advanced|nimra adeel|it|cyber security|8|3|1|2|22k36024:20620
+993210|networking advanced|nimra adeel|it|cyber security|8|2|1|1|22k36024:20617
+778231|intro to it|shayan ahmed|it|it|2|1|0|1|

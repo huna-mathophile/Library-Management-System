@@ -1,0 +1,19 @@
+# Compiled binaries
+library_system
+library_system.exe
+*.exe
+*.out
+*.o
+*.obj
+
+# Temp files created by the app during file updates
+temp.txt
+studTemp.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*~

@@ -1,0 +1,11 @@
+AdminID|Password|Name|Role|Email|PhoneNumber
+11K00001|12345678|Ali Raza|Librarian|ali.raza@library.com|03001234567
+11K00002|87654321|Sara Ahmed|System Admin|sara.ahmed@library.com|03007654321
+11K00003|23456789|Omar Farooq|Inventory Manager|omar.farooq@library.com|03002345678
+11K00004|98765432|Zara Iqbal|Circulation Desk|zara.iqbal@library.com|03009876543
+11K00005|34567890|Ayesha Tariq|Database Manager|ayesha.tariq@library.com|03003456789
+11K00006|09876543|Bilal Khan|Librarian|bilal.khan@library.com|03000987654
+11K00007|45678901|Hira Saeed|System Admin|hira.saeed@library.com|03004567890
+11K00008|10987654|Usman Ali|Inventory Manager|usman.ali@library.com|03001098765
+11K00009|56789012|Fatima Noor|Circulation Desk|fatima.noor@library.com|03005678901
+11K00010|21098765|Hamza Riaz|Database Manager|hamza.riaz@library.com|03002109876
