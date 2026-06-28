@@ -4,9 +4,7 @@
 #include <string.h>
 #include <time.h>
 
-// ============================================================
 //  CONSTANTS
-// ============================================================
 #define MAX_INPUT_CHARS    50
 #define SCREEN_WIDTH       1000
 #define SCREEN_HEIGHT      800     // bumped to give the profile screen room
@@ -25,9 +23,7 @@
 #define HEADER_H           72
 #define FOOTER_RESERVE     90
 
-// ============================================================
 //  PALETTE  (dark theme)
-// ============================================================
 #define COLOR_BG           (Color){  15,  17,  26, 255 }
 #define COLOR_HEADER       (Color){  18,  20,  32, 255 }
 #define COLOR_HEADER_TEXT  (Color){ 255, 255, 255, 255 }
@@ -52,9 +48,7 @@ typedef enum {
     BTN_SUCCESS
 } ButtonStyle;
 
-// ============================================================
 //  STATES
-// ============================================================
 typedef enum {
     STATE_LOGIN,
     STATE_ADMIN_MENU,
@@ -72,9 +66,7 @@ typedef enum {
     STATE_VIEW_STUDENT_RESULT
 } AppState;
 
-// ============================================================
 //  GLOBALS
-// ============================================================
 char usernameInput[MAX_INPUT_CHARS] = {0};
 char passwordInput[MAX_INPUT_CHARS] = {0};
 char searchInput[MAX_INPUT_CHARS]   = {0};
@@ -139,9 +131,7 @@ int MT(const char *text, int size) {
 }
 
 
-// ============================================================
 //  GENERAL HELPERS
-// ============================================================
 
 int strToNum(const char *str) {
     int r = 0;
@@ -183,9 +173,7 @@ void getField(const char *line, int targetIndex, char *dest, int destSize) {
 }
 
 
-// ============================================================
 //  COMMA-LIST HELPERS  (dated entries: "id:daynum")
-// ============================================================
 
 int splitIdDay(const char *token, char *idOut, int idSize) {
     int i = 0, k = 0;
@@ -260,9 +248,7 @@ int countTokens(const char *list) {
 }
 
 
-// ============================================================
 //  UI WIDGETS
-// ============================================================
 
 static Color buttonFill(ButtonStyle s, bool hover) {
     switch (s) {
@@ -353,9 +339,7 @@ void DrawLabel(const char *text, int x, int y) {
 }
 
 
-// ============================================================
 //  AUTHENTICATION
-// ============================================================
 
 int VerifyLogin(const char *user, const char *pass, int asAdmin) {
     FILE *ptr = fopen(asAdmin ? "adminLogin.txt" : "studLogin.txt", "r");
@@ -403,9 +387,7 @@ int LoadStudentRecord(const char *studId) {
 }
 
 
-// ============================================================
 //  SEARCH
-// ============================================================
 
 void PerformSearch(int mode, const char *q1, const char *q2, int showBorrowers) {
     FILE *ptr = fopen("books_Data.txt", "r");
@@ -492,9 +474,7 @@ void PerformSearch(int mode, const char *q1, const char *q2, int showBorrowers) 
 }
 
 
-// ============================================================
 //  ADD BOOK
-// ============================================================
 
 void PerformAddBook(void) {
     if (strlen(inIsbn) == 0 || strlen(inTitle) == 0 || strlen(inQty) == 0) {
@@ -539,9 +519,7 @@ void PerformAddBook(void) {
 }
 
 
-// ============================================================
 //  UPDATE BOOK QUANTITY
-// ============================================================
 
 void PerformUpdateBook(void) {
     if (strlen(inIsbn) == 0 || strlen(inQty) == 0) {
@@ -610,9 +588,7 @@ void PerformUpdateBook(void) {
 }
 
 
-// ============================================================
 //  REQUEST (BORROW) BOOK
-// ============================================================
 
 void PerformRequestBook(void) {
     if (strlen(inIsbn) == 0) {
@@ -777,9 +753,7 @@ void PerformRequestBook(void) {
 }
 
 
-// ============================================================
 //  RETURN BOOK
-// ============================================================
 
 void PerformReturnBook(void) {
     if (strlen(inIsbn) == 0) {
@@ -930,9 +904,7 @@ void PerformReturnBook(void) {
 }
 
 
-// ============================================================
 //  REMOVE BOOK (cascades to students)
-// ============================================================
 
 void PerformRemoveBook(void) {
     if (strlen(inIsbn) == 0) {
@@ -1040,9 +1012,7 @@ void PerformRemoveBook(void) {
 }
 
 
-// ============================================================
 //  ADMIN: CLEAR A STUDENT'S FINE
-// ============================================================
 
 void PerformClearFine(void) {
     char studId[50];
@@ -1092,9 +1062,7 @@ void PerformClearFine(void) {
 }
 
 
-// ============================================================
 //  PROFILE-DRAWING (shared between student-self and admin-view)
-// ============================================================
 
 int DrawStudentProfile(const char *record, int startY) {
     int y = startY;
@@ -1172,9 +1140,7 @@ int DrawStudentProfile(const char *record, int startY) {
 }
 
 
-// ============================================================
 //  MAIN LOOP
-// ============================================================
 
 int main(void) {
     InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Library Management System");
